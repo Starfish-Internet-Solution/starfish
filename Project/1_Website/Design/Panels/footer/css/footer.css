@@ -1,0 +1,43 @@
+/************************************** FOOTER **************************************/
+.sprite {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-color: transparent; }
+
+footer {
+  width: 100%;
+  background-color: #221f20;
+  color: #FFFFFF;
+  height: 49px; }
+  footer section {
+    width: 1200px;
+    padding: 0 88px;
+    margin: 0 auto; }
+    footer section ul {
+      float: left;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0; }
+      footer section ul li {
+        border-right: 1px solid #ccc;
+        float: left; }
+        footer section ul li.active a {
+          color: #8CC63F; }
+        footer section ul li a {
+          font-family: 'Calibri',arial;
+          text-decoration: none;
+          padding: 7px 15px;
+          text-align: center;
+          color: #FFFFFF;
+          display: block;
+          font-size: 1.5em;
+          line-height: 0; }
+        footer section ul li.last {
+          border: none; }
+    footer section aside a {
+      font-size: 0px; }
+      footer section aside a.facebook {
+        position: relative;
+        right: -3px; }

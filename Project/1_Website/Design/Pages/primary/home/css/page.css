@@ -1,0 +1,192 @@
+/************************************** HOMEPAGE **************************************/
+.sprite {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-color: transparent; }
+
+#wrapper section[id*='_container'] {
+  min-height: 300px;
+  border: none;
+  width: 100%; }
+  #wrapper section[id*='_container'] .topSection {
+    min-width: 1200px;
+    margin: 0 auto;
+    height: 574px;
+    width: 100%;
+    overflow: hidden;
+    background: #870e1a;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #870e1a 0%, #c32131 50%, #870e1a 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #870e1a), color-stop(50%, #c32131), color-stop(100%, #870e1a));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #870e1a 0%, #c32131 50%, #870e1a 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #870e1a 0%, #c32131 50%, #870e1a 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #870e1a 0%, #c32131 50%, #870e1a 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #870e1a 0%, #c32131 50%, #870e1a 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#870e1a', endColorstr='#870e1a',GradientType=1 );
+    /* IE6-9 */ }
+    #wrapper section[id*='_container'] .topSection .tile {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-image: url("/Project/1_Website/Design/Main_Layout/images/backgrounds/homepage-tile-background.png");
+      background-repeat: "repeat";
+      background-position: center -90px; }
+      #wrapper section[id*='_container'] .topSection .tile img[src*='dont-cha-wish.png'] {
+        margin-left: -819px;
+        position: absolute;
+        left: 50%; }
+  #wrapper section[id*='_container'] .bottomSection {
+    min-height: 300px;
+    margin: 0 auto;
+    width: 100%; }
+    #wrapper section[id*='_container'] .bottomSection #overview, #wrapper section[id*='_container'] .bottomSection #portfolio, #wrapper section[id*='_container'] .bottomSection #services {
+      width: 1200px; }
+    #wrapper section[id*='_container'] .bottomSection #overview {
+      margin: 55px auto; }
+      #wrapper section[id*='_container'] .bottomSection #overview h1 {
+        margin: 60px 0 10px; }
+      #wrapper section[id*='_container'] .bottomSection #overview table {
+        margin: 55px auto 0;
+        text-align: left;
+        width: 815px; }
+        #wrapper section[id*='_container'] .bottomSection #overview table tr td > div {
+          position: relative;
+          padding: 0 90px;
+          width: 440px; }
+          #wrapper section[id*='_container'] .bottomSection #overview table tr td > div .service, #wrapper section[id*='_container'] .bottomSection #overview table tr td > div .tools, #wrapper section[id*='_container'] .bottomSection #overview table tr td > div .stunningDesign, #wrapper section[id*='_container'] .bottomSection #overview table tr td > div .superiorKnowledge {
+            position: absolute;
+            left: 0; }
+        #wrapper section[id*='_container'] .bottomSection #overview table tr td:last-child > div {
+          padding-right: 0;
+          width: 375px; }
+        #wrapper section[id*='_container'] .bottomSection #overview table tr:first-child td > div {
+          padding-bottom: 60px; }
+    #wrapper section[id*='_container'] .bottomSection .commonLayout {
+      margin: 0 auto 55px;
+      min-width: 1200px; }
+      #wrapper section[id*='_container'] .bottomSection .commonLayout table {
+        margin: 15px auto;
+        width: 1069px; }
+        #wrapper section[id*='_container'] .bottomSection .commonLayout table tr td {
+          padding: 15px 35px; }
+          #wrapper section[id*='_container'] .bottomSection .commonLayout table tr td article {
+            height: 179px;
+            width: 286px; }
+            #wrapper section[id*='_container'] .bottomSection .commonLayout table tr td article h3 {
+              margin-bottom: 15px;
+              line-height: 15px; }
+    #wrapper section[id*='_container'] .bottomSection #portfolio .imagePreview {
+      border: 1px solid #939597; }
+      #wrapper section[id*='_container'] .bottomSection #portfolio .imagePreview:hover section {
+        display: block;
+        opacity: 1; }
+      #wrapper section[id*='_container'] .bottomSection #portfolio .imagePreview section, #wrapper section[id*='_container'] .bottomSection #portfolio .imagePreview h2 {
+        color: #FFFFFF !important; }
+      #wrapper section[id*='_container'] .bottomSection #portfolio .imagePreview section {
+        transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        padding: 50px 0;
+        opacity: 0; }
+    #wrapper section[id*='_container'] .bottomSection #applications {
+      margin: 0 auto 55px;
+      padding: 30px 0;
+      height: 393px;
+      width: 100%;
+      min-width: 1200px;
+      overflow: hidden; }
+      #wrapper section[id*='_container'] .bottomSection #applications > span {
+        top: 0;
+        left: 0;
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        background-color: #2aace3; }
+      #wrapper section[id*='_container'] .bottomSection #applications h2 {
+        margin-bottom: 30px; }
+      #wrapper section[id*='_container'] .bottomSection #applications h2, #wrapper section[id*='_container'] .bottomSection #applications h3 small, #wrapper section[id*='_container'] .bottomSection #applications p {
+        color: #FFFFFF; }
+      #wrapper section[id*='_container'] .bottomSection #applications p {
+        line-height: 20px; }
+      #wrapper section[id*='_container'] .bottomSection #applications > section {
+        z-index: 50;
+        width: 1024px;
+        margin: 0 auto; }
+        #wrapper section[id*='_container'] .bottomSection #applications > section h2, #wrapper section[id*='_container'] .bottomSection #applications > section table {
+          position: relative;
+          z-index: 50; }
+        #wrapper section[id*='_container'] .bottomSection #applications > section table tr td {
+          width: 280px;
+          padding-right: 30px; }
+        #wrapper section[id*='_container'] .bottomSection #applications > section table tr:first-child td {
+          padding-bottom: 35px; }
+        #wrapper section[id*='_container'] .bottomSection #applications > section .starfishEnterprise {
+          position: absolute;
+          right: -263px;
+          top: -30px;
+          z-index: 1; }
+    #wrapper section[id*='_container'] .bottomSection #services article, #wrapper section[id*='_container'] .bottomSection #complimentaryServices article {
+      padding: 13px 13px 48px;
+      position: relative;
+      width: 295px; }
+      #wrapper section[id*='_container'] .bottomSection #services article p, #wrapper section[id*='_container'] .bottomSection #complimentaryServices article p {
+        text-align: justify; }
+    #wrapper section[id*='_container'] .bottomSection #services article {
+      background-color: #edecec; }
+      #wrapper section[id*='_container'] .bottomSection #services article p {
+        width: 205px; }
+      #wrapper section[id*='_container'] .bottomSection #services article span[class*='Icon'] {
+        right: 5px;
+        top: 50px; }
+    #wrapper section[id*='_container'] .bottomSection #starfishLocation {
+      padding: 30px 0;
+      height: 415px;
+      width: 100%;
+      min-width: 1200px;
+      background-size: cover; }
+      #wrapper section[id*='_container'] .bottomSection #starfishLocation section {
+        width: 1200px;
+        margin: 0 auto; }
+        #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside {
+          z-index: 999;
+          width: 222px;
+          height: 238px;
+          left: 100px;
+          top: 55px;
+          padding: 30px 25px;
+          position: relative;
+          background-color: #221f20; }
+          #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside a {
+            font-family: 'GEInspira';
+            font-size: 1.4em;
+            color: #2aace3; }
+          #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside h2, #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside p {
+            color: #FFFFFF; }
+          #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside h2 {
+            margin: 0 0 15px 0; }
+          #wrapper section[id*='_container'] .bottomSection #starfishLocation section aside p {
+            line-height: 17px;
+            margin: 0; }
+      #wrapper section[id*='_container'] .bottomSection #starfishLocation section#googleMap {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0; }
+      #wrapper section[id*='_container'] .bottomSection #starfishLocation .transparentOverlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 998; }

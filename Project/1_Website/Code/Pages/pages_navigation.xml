@@ -1,0 +1,67 @@
+<!-- ******************************		NOTES    ***************************** -->
+<!-- Navigational links are grouped together into how they will be grouped together on the page							--> 
+<!-- Primary Navigation are the most important links of the website 													-->
+<!-- if you dont want the home page link on the primary navigation because its the logo then put it in the SXXDD 		-->
+
+<!-- *******************************	OPTIONS   ****************************************************-->
+<!-- default ="true display default page for website-->
+<!-- language ="en" -->
+<!-- frontend ="hide" if set to page - folder is not required in Design-->
+<!-- cms ="hide" hide page from CMS side navigation-->
+<!-- xml ="default" display default xml page for CMS-->
+<!-- **************************************************************************************************-->
+<pages>
+	<!-- ******************************		Primary Navigation    ************************************ -->
+	<navigation_group>
+		<navigation_group_id>primary</navigation_group_id>
+		<page xml ="default" default="true">
+				<page_id>home</page_id>
+				<url_name>home</url_name>
+				<link_title>HOME</link_title>
+				<link_text>HOME</link_text>
+		</page>
+		<page>
+				<page_id>products</page_id>
+				<url_name>products-and-services</url_name>
+				<link_title>PRODUCTS &amp; SERVICES</link_title>
+				<link_text>PRODUCTS &amp; SERVICES</link_text>
+		</page>
+		<page>
+				<page_id>portfolio</page_id>
+				<url_name>our-portfolio</url_name>
+				<link_title>OUR PORTFOLIO</link_title>
+				<link_text>OUR PORTFOLIO</link_text>
+		</page>
+		<page>
+				<page_id>plans</page_id>
+				<url_name>plans-and-pricing</url_name>
+				<link_title>PLANS &amp; PRICING</link_title>
+				<link_text>PLANS &amp; PRICING</link_text>
+		</page>
+		<page>
+				<page_id>getStarted</page_id>
+				<url_name>get-started</url_name>
+				<link_title>GET STARTED</link_title>
+				<link_text>GET STARTED</link_text>
+		</page>
+	</navigation_group>
+	
+	
+	<!-- ******************************		Secondary Navigation    ************************************ -->
+	<navigation_group>
+		<navigation_group_id>secondary</navigation_group_id>
+		<page>
+			<page_id>contact</page_id>
+			<url_name>contact-us</url_name>
+			<link_title>contact us</link_title>
+			<link_text>contact us</link_text>
+		</page>
+		<page>
+			<page_id>careers</page_id>
+			<url_name>careers</url_name>
+			<link_title>careers</link_title>
+			<link_text>careers</link_text>
+		</page>
+	</navigation_group>
+</pages>
+<!-- **************************************************************************************************-->

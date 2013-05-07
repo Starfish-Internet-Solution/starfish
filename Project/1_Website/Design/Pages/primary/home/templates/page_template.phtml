@@ -1,0 +1,151 @@
+<section class="topSection"><!-- will be used to house the banner -->
+	<div class="tile align_c">
+		<img class="posFix" src="/Project/1_Website/Design/Main_Layout/images/temporaryImages/dont-cha-wish.png"/>
+	</div>
+</section>
+<section class="bottomSection">
+	<article id="overview" class="align_c clearfix">
+		<p class="fs-23">For clean, <strong><em>professionally designed</em></strong>, easy-to-use websites, look no further.<br/>Based in Manila, Philipinnes, we design <strong>affordable</strong> websites for businesses around the world.</p>
+		<h1>Everything you need for a brighter digital future</h1>
+		<p class="fs-19">When you sign up with Starfish, we talk care of everything so that you can focus on your business.</p>
+		<table>
+			<tbody itemscope itemtype="http://www.schema.org/ItemList">
+				<tr>
+					<td>
+						<div class="posRel">
+							<span class="service"></span>
+							<h3><small itemprop="name">Excellent service and support</small></h3>
+							<p itemprop="description">We're always there for you. And for the first year maintenance is free.</p>
+						</div>
+					</td>
+					<td>
+						<div class="posRel">
+							<span class="stunningDesign"></span>
+							<h3><small itemprop="name">Stunning website designs</small></h3>
+							<p itemprop="description">Our designs are unique, each and every time. With Starfish, you get the look you deserve.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="posRel">
+							<span class="tools"></span>
+							<h3><small itemprop="name">Fantastic easy-to-use tools</small></h3>
+							<p itemprop="description">Management tools, marketing tools, we got software to give you the power to do more.</p>
+						</div>
+					</td>
+					<td>
+						<div class="posRel">
+							<span class="superiorKnowledge"></span>
+							<h3><small itemprop="name">Superior knowledge and advice</small></h3>
+							<p itemprop="description">We solve real business problems with web solutions. Get the benefit of our wisdom.</p>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+	<article id="portfolio" class="commonLayout align_c clearfix">
+		<h2>A peek at our portfolio</h2>
+		<table>
+			<tbody>
+				<tr>
+				<?for ($i=0;$i<=5;$i++):?>
+					<td itemscope itemtype="http://www.schema.org/ItemList">
+						<article class="imagePreview" style="background-image:url(/Project/1_Website/Design/Main_Layout/images/temporaryImages/argentina.jpg)">
+							<img itemprop="image" class="hide" src="/Project/1_Website/Design/Main_Layout/images/temporaryImages/argentina.jpg" /> 
+							<section class="darkGrayOverlay align_c">
+								<h2 itemprop="name">Argentina Meats</h2>
+								<p itemprop="description">Web Design</p>
+							</section>
+						</article>
+					</td>
+				<?if ($i == 2):?>
+					</tr><tr>
+				<?endif;?>
+				<?endfor;?>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+	<article id="services" class="commonLayout align_c clearfix">
+		<h2>Areas in which we can help</h2>
+		<table>
+			<tbody>
+				<tr>
+				<?for ($i=0;$i<=5;$i++):?>
+					<td itemscope itemtype="http://www.schema.org/Product">
+						<article class="align_l posRel">
+							<span class="posAbs Icon"></span>
+							<h3><small itemprop="name">Products and Services</small></h3>
+							<p itemprop="description">Find out the best ways to present your products and services online. </p>
+							<a itemprop="url" class="pageLinks" href="#"><span class="align_c">Learn more about bussiness websites</span></a>
+						</article>
+					</td>
+				<?if ($i == 2):?>
+					</tr><tr>
+				<?endif;?>
+				<?endfor;?>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+	<article id="applications" class="clearfix align_c posRel">
+		<span class="posAbs"></span><!-- holds to background color -->
+		<section class="posRel">
+			<h2>Applications we've made</h2>
+			<table>
+				<tbody>
+					<tr>
+					<?for ($i=0;$i<=5;$i++):?>
+						<td itemscope itemtype="http://www.schema.org/Product">
+							<article class="align_l">
+								<h3><small itemprop="name">Content Management System</small></h3>
+								<p itemprop="description">Business web sites are there to show your potential clients why you're the best in town.</p>
+							</article>
+						</td>
+					<?if ($i == 2):?>
+						</tr><tr>
+					<?endif;?>
+					<?endfor;?>
+					</tr>
+				</tbody>
+			</table>
+			<span class="starfishEnterprise"></span>
+		</section>
+	</article>
+	<article id="complimentaryServices" class="commonLayout align_c clearfix">
+		<h2>Complementary services</h2>
+		<table>
+			<tbody>
+				<tr>
+				<?for ($i=0;$i<=5;$i++):?>
+					<td itemscope itemtype="http://www.schema.org/Product">
+						<article class="align_l">
+							<h3><small itemprop="name">Complimentary Services</small></h3>
+							<p itemprop="description">Every business, no matter its size, needs to know how to present itserlf in a favorable light. </p>
+							<a itemprop="url" class="pageLinks" href="#"><span class="align_c">Learn more about bussiness websites</span></a>
+						</article>
+					</td>
+				<?if ($i == 2):?>
+					</tr><tr>
+				<?endif;?>
+				<?endfor;?>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+	<article id="starfishLocation" class="posRel">
+		<section>
+			<aside itemscope itemtype="http://schema.org/Person">
+				<h2>Contact Us</h2>
+				<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">#7612-D Guijo Street</span><span itemprop="addressLocality"> San Antonio Village</span>,<span itemprop="addressRegion"> Makati City</span><span itemprop="addressCountry"> Philippines</span></p><br/>
+				<p itemprop="telephone">+632.756.08.27</p>
+				<p itemprop="telephone">+632.482.96.42</p><br/>
+				<a itemprop="email" href="mailto:francis.barbero@starfi.sh">francis.barbero@starfi.sh</a>
+			</aside>
+		</section>
+		<section id="googleMap"></section>
+		<span class="transparentOverlay"></span>
+	</article>
+</section>
